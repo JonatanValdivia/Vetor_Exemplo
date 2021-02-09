@@ -1,0 +1,21 @@
+
+public class Vetores {
+
+	public static void main(String[] args) {
+		// *** Criação de um vetor/Array
+		double notas[] = {7.8, 8.4, 6.5, 9.2};
+		String alunos[] = {
+				"Maria", 
+				"José", 
+				"João",
+				"Fernanda",
+				"Fabiana",
+				"Wiliam"
+		};
+		
+		System.out.println("Notas:" + notas.length);
+		System.out.println("Alunos: " + alunos.length);
+
+	}
+
+}
